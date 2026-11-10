@@ -1,0 +1,4 @@
+- Body map: smoother, better-proportioned figure; tap any muscle to see its weekly sets. New smaller groups: forearm flexors/extensors, gastrocnemius/soleus, serratus, rotator cuff, hip flexors and neck.
+- New Liquid Glass look: frosted cards, a floating tab bar and glass dialogs, in light and dark.
+- The voice assistant and all AI features are removed (no microphone permission any more). Timer sounds work as before.
+- Settings → Check for updates shows your version and finds new releases.

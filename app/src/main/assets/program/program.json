@@ -1,0 +1,2229 @@
+{
+ "version": 1,
+ "exercises": [
+  {
+   "id": "bench_press",
+   "name": {
+    "ar": "بنش برس بالبار",
+    "en": "Barbell Bench Press"
+   },
+   "muscles": {
+    "ar": "صدر · تراي · كتف أمامي",
+    "en": "Chest · Triceps · Front delts",
+    "mx": "صدر · Triceps · كتف أمامي"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "BARBELL",
+   "art": "BENCH",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "لوحين الكتف لورا ولتحت ورجليك ثابتة عالأرض. نزّل البار بتحكم لنص الصدر وادفع.",
+    "en": "Shoulder blades back and down, feet planted. Lower the bar under control to mid-chest, then press."
+   }
+  },
+  {
+   "id": "incline_db_press",
+   "name": {
+    "ar": "ضغط دامبلز مائل (⁦30°⁩)",
+    "en": "Incline Dumbbell Press (30°)"
+   },
+   "muscles": {
+    "ar": "صدر علوي · كتف أمامي",
+    "en": "Upper chest · Front delts"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "INCLINE",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "المقعد على ⁦30°⁩. نزّل لحد ما تحس بشد بالصدر بدون ما يتدحرج كتفك لقدّام.",
+    "en": "Bench at 30°. Lower until the chest stretches without your shoulders rolling forward."
+   }
+  },
+  {
+   "id": "cable_fly",
+   "name": {
+    "ar": "كيبل فلاي",
+    "en": "Cable Fly"
+   },
+   "muscles": {
+    "ar": "صدر",
+    "en": "Chest"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "CABLE",
+   "art": "FLY",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "كوعك مثني شوي وثابت. لم إيديك قدام صدرك بقوس واسع وارجع بتحكم.",
+    "en": "Soft, fixed elbows. Bring the hands together in a wide arc and return under control."
+   }
+  },
+  {
+   "id": "pec_deck",
+   "name": {
+    "ar": "جهاز الفراشة",
+    "en": "Pec Deck"
+   },
+   "muscles": {
+    "ar": "صدر",
+    "en": "Chest"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "MACHINE",
+   "art": "FLY",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ظهرك لازق بالمسند، ولم الذراعين بدون ما تطلع كتافك لفوق.",
+    "en": "Back flat on the pad; squeeze the arms together without shrugging."
+   }
+  },
+  {
+   "id": "seated_db_curl",
+   "name": {
+    "ar": "بايسبس دامبلز جالس",
+    "en": "Seated Dumbbell Curl"
+   },
+   "muscles": {
+    "ar": "باي",
+    "en": "Biceps",
+    "mx": "Biceps"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "CURL",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ظهرك عالمسند وكوعك جنبك. اطلع بدون مرجحة ونزّل بثانيتين.",
+    "en": "Back on the pad, elbows at your sides. Curl without swinging, lower in two seconds."
+   }
+  },
+  {
+   "id": "hammer_curl",
+   "name": {
+    "ar": "هامر كيرل",
+    "en": "Hammer Curl"
+   },
+   "muscles": {
+    "ar": "عضلة الساعد · باي",
+    "en": "Brachioradialis · Biceps",
+    "mx": "Brachioradialis · Biceps"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "HAMMER",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "قبضة محايدة (الإبهام لفوق). كوعك ثابت والساعد هو اللي بيشتغل.",
+    "en": "Neutral grip, thumbs up. Elbows fixed; let the forearm do the work."
+   }
+  },
+  {
+   "id": "rope_hammer_curl",
+   "name": {
+    "ar": "هامر كيرل بالحبل",
+    "en": "Rope Hammer Curl"
+   },
+   "muscles": {
+    "ar": "عضلة الساعد · باي",
+    "en": "Brachioradialis · Biceps",
+    "mx": "Brachioradialis · Biceps"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "CABLE",
+   "art": "HAMMER",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "الحبل من تحت، كوعك ثابت، وشد لفوق بقبضة محايدة.",
+    "en": "Rope on the low pulley, elbows fixed, curl with a neutral grip."
+   }
+  },
+  {
+   "id": "lat_pulldown",
+   "name": {
+    "ar": "سحب أمامي",
+    "en": "Lat Pulldown"
+   },
+   "muscles": {
+    "ar": "الظهر العريض · باي",
+    "en": "Lats · Biceps",
+    "mx": "Lats · Biceps"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "CABLE",
+   "art": "PULLDOWN",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "صدرك لفوق، اسحب البار لأعلى صدرك بكوعك مش بإيدك، وارجع لفوق للآخر.",
+    "en": "Chest up, pull the bar to your upper chest with the elbows, then return to a full stretch."
+   }
+  },
+  {
+   "id": "chest_supported_row",
+   "name": {
+    "ar": "تي بار رو بسند صدر",
+    "en": "Chest-Supported T-Bar Row"
+   },
+   "muscles": {
+    "ar": "وسط الظهر · الظهر العريض",
+    "en": "Mid back · Lats",
+    "mx": "وسط الظهر · Lats"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "PLATE",
+   "art": "ROW",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "صدرك عالمسند طول الوقت. اسحب لبطنك وشد لوحين الكتف لبعض.",
+    "en": "Keep your chest on the pad. Row to the belly and squeeze the shoulder blades together."
+   }
+  },
+  {
+   "id": "seated_cable_row",
+   "name": {
+    "ar": "سحب كيبل جالس",
+    "en": "Seated Cable Row"
+   },
+   "muscles": {
+    "ar": "وسط الظهر · الظهر العريض",
+    "en": "Mid back · Lats",
+    "mx": "وسط الظهر · Lats"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "CABLE",
+   "art": "ROW",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ظهرك مستقيم وما تمرجح لورا. اسحب لبطنك وارجع بتحكم.",
+    "en": "Torso upright, no rocking back. Row to the belly and return under control."
+   }
+  },
+  {
+   "id": "back_extension",
+   "name": {
+    "ar": "تمديد ظهر ⁦45°⁩",
+    "en": "45° Back Extension"
+   },
+   "muscles": {
+    "ar": "أسفل الظهر · الجلوتس · الفخد الخلفي",
+    "en": "Lower back · Glutes · Hamstrings",
+    "mx": "أسفل الظهر · Glutes · Hamstrings"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "PLATE",
+   "art": "BACK_EXT",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "انطوي من الورك مش من الظهر، واطلع لحد ما يصير جسمك خط مستقيم بس — بدون تقويس.",
+    "en": "Hinge at the hips, not the spine. Come up to a straight line only — no arching."
+   }
+  },
+  {
+   "id": "weighted_dips",
+   "name": {
+    "ar": "ديبس بالحزام",
+    "en": "Weighted Dips"
+   },
+   "muscles": {
+    "ar": "تراي · صدر",
+    "en": "Triceps · Chest",
+    "mx": "Triceps · صدر"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "BODYWEIGHT",
+   "gear": "BELT",
+   "art": "DIPS",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "جسمك مستقيم عشان التراي ياخد الشغل. انزل لحد ما يصير العضد أفقي تقريباً.",
+    "en": "Stay upright so the triceps do the work. Lower until the upper arm is about level."
+   }
+  },
+  {
+   "id": "overhead_cable_ext",
+   "name": {
+    "ar": "تراي كيبل فوق الراس",
+    "en": "Overhead Cable Triceps Extension"
+   },
+   "muscles": {
+    "ar": "تراي (الرأس الطويل)",
+    "en": "Triceps (long head)",
+    "mx": "Triceps (long head)"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "CABLE",
+   "art": "OVERHEAD_EXT",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "الحبل ورا راسك وكوعك جنب راسك وثابت. افرد للآخر وارجع بتحكم.",
+    "en": "Rope behind the head, elbows by your ears and still. Extend fully, return slowly."
+   }
+  },
+  {
+   "id": "seated_db_shoulder_press",
+   "name": {
+    "ar": "ضغط أكتاف دامبلز جالس",
+    "en": "Seated Dumbbell Shoulder Press"
+   },
+   "muscles": {
+    "ar": "كتف أمامي وجانبي · تراي",
+    "en": "Front & side delts · Triceps",
+    "mx": "كتف أمامي وجانبي · Triceps"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "SHOULDER_PRESS",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ظهرك عالمسند وبطنك مشدود. ادفع لفوق بدون ما تقوّس أسفل ظهرك.",
+    "en": "Back on the pad, core braced. Press up without arching your lower back."
+   }
+  },
+  {
+   "id": "db_lateral_raise",
+   "name": {
+    "ar": "رفرفة جانبي دامبلز",
+    "en": "Dumbbell Lateral Raise"
+   },
+   "muscles": {
+    "ar": "كتف جانبي",
+    "en": "Side delts"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "LATERAL",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ارفع لمستوى الكتف بس، والكوع قايد الحركة. نزول 3 ثواني وبدون مرجحة.",
+    "en": "Raise to shoulder height only, elbows leading. Three-second lowering, no swinging."
+   }
+  },
+  {
+   "id": "face_pull",
+   "name": {
+    "ar": "فيس بول",
+    "en": "Face Pull"
+   },
+   "muscles": {
+    "ar": "كتف خلفي · ترابيس وسطى",
+    "en": "Rear delts · Mid traps",
+    "mx": "كتف خلفي · Mid traps"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "CABLE",
+   "art": "FACE_PULL",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "الحبل بمستوى وجهك. اسحب لجبينك وافتح إيديك لبرّا مع تدوير الكتف لورا.",
+    "en": "Rope at face height. Pull to the forehead, hands apart, rotating the shoulders back."
+   }
+  },
+  {
+   "id": "db_shrug",
+   "name": {
+    "ar": "شرَغ دامبلز",
+    "en": "Dumbbell Shrug"
+   },
+   "muscles": {
+    "ar": "ترابيس",
+    "en": "Traps",
+    "mx": "Traps"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "SHRUG",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ارفع كتافك لأذنيك مستقيم (بدون تدوير) وثبّت ثانية فوق.",
+    "en": "Lift the shoulders straight toward the ears (no rolling) and hold a second on top."
+   }
+  },
+  {
+   "id": "barbell_shrug",
+   "name": {
+    "ar": "شرَغ بالبار",
+    "en": "Barbell Shrug"
+   },
+   "muscles": {
+    "ar": "ترابيس",
+    "en": "Traps",
+    "mx": "Traps"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "BARBELL",
+   "art": "SHRUG",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "البار قدامك وإيديك بعرض الكتف. ارفع مستقيم وثبّت ثانية.",
+    "en": "Bar in front, hands shoulder-width. Lift straight up and hold a second."
+   }
+  },
+  {
+   "id": "farmers_walk",
+   "name": {
+    "ar": "مشي المزارع",
+    "en": "Farmer's Walk"
+   },
+   "muscles": {
+    "ar": "ترابيس · الساعد · الكور",
+    "en": "Traps · Forearms · Core",
+    "mx": "Traps · الساعد · Core"
+   },
+   "cls": "OTHER",
+   "measure": "DISTANCE",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "FARMER",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "دامبلز ثقيلة، كتافك لورا وبطنك مشدود. خطوات قصيرة وسريعة.",
+    "en": "Heavy dumbbells, shoulders back, core tight. Short, quick steps."
+   }
+  },
+  {
+   "id": "snap_down",
+   "name": {
+    "ar": "سناب داون",
+    "en": "Snap Down"
+   },
+   "muscles": {
+    "ar": "الركبة · الهبوط",
+    "en": "Knees · Landing",
+    "mx": "الركبة · Landing"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "SNAP_DOWN",
+   "perSide": false,
+   "knee": true,
+   "lower": false,
+   "cue": {
+    "ar": "اطلع على أصابعك، انزل بسرعة لنص سكوات وثبّت الهبوط — ركبك بخط رجليك.",
+    "en": "Rise onto your toes, drop fast into a half squat and freeze — knees track over the toes."
+   }
+  },
+  {
+   "id": "box_jump",
+   "name": {
+    "ar": "القفز على الصندوق",
+    "en": "Box Jump"
+   },
+   "muscles": {
+    "ar": "انفجارية الرجلين",
+    "en": "Leg power"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "BOX_JUMP",
+   "perSide": false,
+   "knee": true,
+   "lower": false,
+   "cue": {
+    "ar": "اقفز وانزل ناعم عالصندوق، ثبّت ثانيتين، وانزل مشي — ما تقفز لتحت.",
+    "en": "Jump, land softly on the box, hold two seconds and step down — never jump down."
+   }
+  },
+  {
+   "id": "broad_jump",
+   "name": {
+    "ar": "القفز العريض",
+    "en": "Broad Jump"
+   },
+   "muscles": {
+    "ar": "انفجارية الرجلين",
+    "en": "Leg power"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "BROAD_JUMP",
+   "perSide": false,
+   "knee": true,
+   "lower": false,
+   "cue": {
+    "ar": "مرجح إيديك واقفز لقدّام، وثبّت الهبوط بدون ما تتحرك.",
+    "en": "Swing the arms, jump forward and stick the landing without moving."
+   }
+  },
+  {
+   "id": "backward_sled_drag",
+   "name": {
+    "ar": "سحب السليد لورا",
+    "en": "Backward Sled Drag"
+   },
+   "muscles": {
+    "ar": "الفخد الأمامي · الركبة · التيبياليس",
+    "en": "Quads · Knees · Tibialis",
+    "mx": "Quads · الركبة · Tibialis"
+   },
+   "cls": "OTHER",
+   "measure": "DISTANCE",
+   "load": "WEIGHTED",
+   "gear": "SLED",
+   "art": "SLED_DRAG",
+   "perSide": false,
+   "knee": true,
+   "lower": false,
+   "cue": {
+    "ar": "امشي لورا على مقدمة قدمك وركبك متقدمة، خطوات قصيرة ومتواصلة.",
+    "en": "Walk backwards on the balls of your feet, knees forward, short continuous steps."
+   }
+  },
+  {
+   "id": "sled_push",
+   "name": {
+    "ar": "دفع السليد",
+    "en": "Sled Push"
+   },
+   "muscles": {
+    "ar": "الفخد · الجلوتس · القوة",
+    "en": "Quads · Glutes · Power",
+    "mx": "الفخد · Glutes · القوة"
+   },
+   "cls": "OTHER",
+   "measure": "DISTANCE",
+   "load": "WEIGHTED",
+   "gear": "SLED",
+   "art": "SLED_PUSH",
+   "perSide": false,
+   "knee": true,
+   "lower": false,
+   "cue": {
+    "ar": "جسمك مايل لقدّام وإيديك ممدودة. ادفع الأرض لورا بخطوات قوية.",
+    "en": "Lean in with long arms. Drive the floor back with strong steps."
+   }
+  },
+  {
+   "id": "kb_deadlift",
+   "name": {
+    "ar": "ديدلفت كتلبيل",
+    "en": "Kettlebell Deadlift"
+   },
+   "muscles": {
+    "ar": "الورك · الجلوتس · الفخد الخلفي",
+    "en": "Hips · Glutes · Hamstrings",
+    "mx": "الورك · Glutes · Hamstrings"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "KETTLEBELL",
+   "art": "KB_DEADLIFT",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ادفع وركك لورا وظهرك مستقيم، ووقف بدفع الورك لقدّام.",
+    "en": "Push the hips back with a flat back, stand up by driving the hips forward."
+   }
+  },
+  {
+   "id": "tire_flip",
+   "name": {
+    "ar": "قلب الإطار",
+    "en": "Tire Flip"
+   },
+   "muscles": {
+    "ar": "الجسم كامل · الورك",
+    "en": "Full body · Hips"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "TIRE_FLIP",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "صدرك عالإطار وأصابعك تحته. ادفع بالورك والرجلين مش بظهرك، وبعدين ادفع بإيديك.",
+    "en": "Chest to the tire, fingers under. Drive with hips and legs, not your back, then push it over."
+   }
+  },
+  {
+   "id": "wall_ball",
+   "name": {
+    "ar": "وول بول",
+    "en": "Wall Ball"
+   },
+   "muscles": {
+    "ar": "الرجلين · الكتاف · التحمل",
+    "en": "Legs · Shoulders · Conditioning"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "MEDBALL",
+   "art": "WALL_BALL",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "سكوات كامل والكرة على صدرك، واطلع ارمي على الهدف بنفس الحركة.",
+    "en": "Full squat with the ball at your chest, stand and throw to the target in one motion."
+   }
+  },
+  {
+   "id": "kb_swing",
+   "name": {
+    "ar": "كتلبيل سوينغ",
+    "en": "Kettlebell Swing"
+   },
+   "muscles": {
+    "ar": "الجلوتس · الفخد الخلفي · الكور",
+    "en": "Glutes · Hamstrings · Core",
+    "mx": "Glutes · Hamstrings · Core"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "KETTLEBELL",
+   "art": "KB_SWING",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "الحركة من الورك مش من الكتف. شد الجلوتس فوق والكتلبيل لمستوى صدرك.",
+    "en": "Hinge, don't squat. Snap the hips, squeeze the glutes, bell to chest height."
+   }
+  },
+  {
+   "id": "pull_up",
+   "name": {
+    "ar": "عقلة",
+    "en": "Pull-up"
+   },
+   "muscles": {
+    "ar": "الظهر العريض · باي",
+    "en": "Lats · Biceps",
+    "mx": "Lats · Biceps"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "BODYWEIGHT",
+   "gear": "BELT",
+   "art": "PULL_UP",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ابدأ من تعليق كامل، واطلع لحد ما تعدي دقنك البار بدون مرجحة.",
+    "en": "Start from a dead hang and pull until your chin clears the bar, no kipping."
+   }
+  },
+  {
+   "id": "sandbag_carry",
+   "name": {
+    "ar": "حمل كيس الرمل",
+    "en": "Sandbag Bear-Hug Carry"
+   },
+   "muscles": {
+    "ar": "الكور · الظهر العلوي · التحمل",
+    "en": "Core · Upper back · Conditioning",
+    "mx": "Core · الظهر العلوي · التحمل"
+   },
+   "cls": "OTHER",
+   "measure": "DISTANCE",
+   "load": "WEIGHTED",
+   "gear": "SANDBAG",
+   "art": "SANDBAG",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "احضن الكيس قريب من صدرك، ظهرك مستقيم، وامشي بخطوات ثابتة.",
+    "en": "Hug the bag tight to your chest, back tall, steady steps."
+   }
+  },
+  {
+   "id": "monkey_bars",
+   "name": {
+    "ar": "بارات القرد",
+    "en": "Monkey Bars"
+   },
+   "muscles": {
+    "ar": "القبضة · الظهر · الكتاف",
+    "en": "Grip · Back · Shoulders"
+   },
+   "cls": "OTHER",
+   "measure": "LENGTH",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "MONKEY_BARS",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "كتافك مشدودة مش مرخية، وخلّي الحركة إيقاعية من بار لبار.",
+    "en": "Keep the shoulders engaged, move rhythmically bar to bar."
+   }
+  },
+  {
+   "id": "hanging_knee_raise",
+   "name": {
+    "ar": "رفع ركب معلّق",
+    "en": "Hanging Knee Raise"
+   },
+   "muscles": {
+    "ar": "بطن سفلي",
+    "en": "Lower abs"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "KNEE_RAISE",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "علّق بدون مرجحة، ارفع ركبك لصدرك بلف الحوض، ونزّل بتحكم.",
+    "en": "Hang still, curl the knees to your chest by tilting the pelvis, lower with control."
+   }
+  },
+  {
+   "id": "hanging_leg_raise",
+   "name": {
+    "ar": "رفع رجلين معلّق",
+    "en": "Hanging Leg Raise"
+   },
+   "muscles": {
+    "ar": "بطن سفلي",
+    "en": "Lower abs"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "KNEE_RAISE",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "رجليك شبه مفرودة، ارفعها لمستوى الورك أو أعلى بدون مرجحة.",
+    "en": "Legs nearly straight, raise to hip height or higher with no swing."
+   }
+  },
+  {
+   "id": "dead_bug",
+   "name": {
+    "ar": "ديد بَغ مع ميديسن بول",
+    "en": "Dead Bug (Med Ball)"
+   },
+   "muscles": {
+    "ar": "الكور العميق · أسفل الظهر",
+    "en": "Deep core · Lower back",
+    "mx": "Core العميق · أسفل الظهر"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "DEAD_BUG",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "أسفل ظهرك لازق بالأرض طول الوقت. امسك الكرة بين إيدك وركبتك المقابلة ومد الثانيين ببطء.",
+    "en": "Lower back glued down. Squeeze the ball between one hand and the opposite knee; extend the other pair slowly."
+   }
+  },
+  {
+   "id": "copenhagen",
+   "name": {
+    "ar": "كوبنهاغن بلانك جانبي",
+    "en": "Copenhagen Side Plank"
+   },
+   "muscles": {
+    "ar": "الأدكترز · الجوانب",
+    "en": "Adductors · Obliques",
+    "mx": "Adductors · الجوانب"
+   },
+   "cls": "OTHER",
+   "measure": "TIME",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "COPENHAGEN",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "الرجل اللي فوق على الستيب، جسمك خط مستقيم من الراس للقدم، وما تنزّل الورك.",
+    "en": "Top leg on the step, body in a straight line, don't let the hips sag."
+   }
+  },
+  {
+   "id": "suitcase_carry",
+   "name": {
+    "ar": "حمل الحقيبة",
+    "en": "Suitcase Carry"
+   },
+   "muscles": {
+    "ar": "الجوانب · الثبات · القبضة",
+    "en": "Obliques · Stability · Grip"
+   },
+   "cls": "OTHER",
+   "measure": "DISTANCE",
+   "load": "WEIGHTED",
+   "gear": "KETTLEBELL",
+   "art": "SUITCASE",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "كتلبيل بإيد وحدة وجسمك مستقيم — لا تميل للجهة الثقيلة.",
+    "en": "Kettlebell in one hand, stand tall — don't lean toward the weight."
+   }
+  },
+  {
+   "id": "goblet_squat",
+   "name": {
+    "ar": "جوبلت سكوات والكعب مرفوع",
+    "en": "Heel-Elevated Goblet Squat"
+   },
+   "muscles": {
+    "ar": "الفخد الأمامي · الركبة",
+    "en": "Quads · Knees",
+    "mx": "Quads · الركبة"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "GOBLET",
+   "perSide": false,
+   "knee": true,
+   "lower": true,
+   "cue": {
+    "ar": "كعبك على صحن ⁦5-10 kg⁩، الدامبل على صدرك. انزل 3 ثواني ووقفة ثانية تحت.",
+    "en": "Heels on a 5–10 kg plate, dumbbell at the chest. Three seconds down, one-second pause."
+   }
+  },
+  {
+   "id": "back_squat",
+   "name": {
+    "ar": "باك سكوات والكعب مرفوع",
+    "en": "Heel-Elevated Back Squat"
+   },
+   "muscles": {
+    "ar": "الفخد الأمامي · الركبة · الجلوتس",
+    "en": "Quads · Knees · Glutes",
+    "mx": "Quads · الركبة · Glutes"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "BARBELL",
+   "art": "BACK_SQUAT",
+   "perSide": false,
+   "knee": true,
+   "lower": true,
+   "cue": {
+    "ar": "البار على الترابيس، كعبك مرفوع، صدرك لفوق وركبك بخط أصابعك.",
+    "en": "Bar on the traps, heels raised, chest up, knees tracking the toes."
+   }
+  },
+  {
+   "id": "rdl",
+   "name": {
+    "ar": "ديدلفت روماني",
+    "en": "Romanian Deadlift"
+   },
+   "muscles": {
+    "ar": "الفخد الخلفي · الجلوتس · أسفل الظهر",
+    "en": "Hamstrings · Glutes · Lower back",
+    "mx": "Hamstrings · Glutes · أسفل الظهر"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "BARBELL",
+   "art": "RDL",
+   "perSide": false,
+   "knee": false,
+   "lower": true,
+   "cue": {
+    "ar": "ظهر مستقيم، ادفع الورك لورا، وانزل لحد ما تحس شد بالفخد الخلفي بس.",
+    "en": "Flat back, push the hips back, go down only until the hamstrings stretch."
+   }
+  },
+  {
+   "id": "db_rdl",
+   "name": {
+    "ar": "ديدلفت روماني دامبلز",
+    "en": "Dumbbell Romanian Deadlift"
+   },
+   "muscles": {
+    "ar": "الفخد الخلفي · الجلوتس · أسفل الظهر",
+    "en": "Hamstrings · Glutes · Lower back",
+    "mx": "Hamstrings · Glutes · أسفل الظهر"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "RDL",
+   "perSide": false,
+   "knee": false,
+   "lower": true,
+   "cue": {
+    "ar": "الدامبلز قريبة من رجليك، ظهر مستقيم، وادفع الورك لورا.",
+    "en": "Dumbbells close to the legs, flat back, hips back."
+   }
+  },
+  {
+   "id": "bulgarian_split_squat",
+   "name": {
+    "ar": "بلغاري سبليت سكوات",
+    "en": "Bulgarian Split Squat"
+   },
+   "muscles": {
+    "ar": "الجلوتس · الفخد · الأدكترز",
+    "en": "Glutes · Quads · Adductors",
+    "mx": "Glutes · Quads · Adductors"
+   },
+   "cls": "COMPOUND",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "DUMBBELL",
+   "art": "BULGARIAN",
+   "perSide": true,
+   "knee": true,
+   "lower": true,
+   "cue": {
+    "ar": "الرجل الخلفية على البنش، انزل مستقيم لتحت وركبتك الأمامية بخط أصابعك.",
+    "en": "Rear foot on the bench, drop straight down, front knee over the toes."
+   }
+  },
+  {
+   "id": "hip_adduction",
+   "name": {
+    "ar": "جهاز الأدكترز",
+    "en": "Hip Adduction Machine"
+   },
+   "muscles": {
+    "ar": "الأدكترز",
+    "en": "Adductors",
+    "mx": "Adductors"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "MACHINE",
+   "art": "ADDUCTION",
+   "perSide": false,
+   "knee": false,
+   "lower": true,
+   "cue": {
+    "ar": "ضم رجليك بتحكم وثبّت ثانية، وارجع ببطء لحد ما تحس بشد.",
+    "en": "Squeeze the legs together, pause, return slowly to a light stretch."
+   }
+  },
+  {
+   "id": "seated_leg_curl",
+   "name": {
+    "ar": "ثني ركبة جالس",
+    "en": "Seated Leg Curl"
+   },
+   "muscles": {
+    "ar": "الفخد الخلفي",
+    "en": "Hamstrings",
+    "mx": "Hamstrings"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "MACHINE",
+   "art": "LEG_CURL",
+   "perSide": false,
+   "knee": false,
+   "lower": true,
+   "cue": {
+    "ar": "ثبّت فخدك تحت المسند، اثني للآخر وارجع بثلاث ثواني.",
+    "en": "Thighs locked under the pad, curl fully, return in three seconds."
+   }
+  },
+  {
+   "id": "lying_leg_curl",
+   "name": {
+    "ar": "ثني ركبة نايم",
+    "en": "Lying Leg Curl"
+   },
+   "muscles": {
+    "ar": "الفخد الخلفي",
+    "en": "Hamstrings",
+    "mx": "Hamstrings"
+   },
+   "cls": "ISOLATION",
+   "measure": "REPS",
+   "load": "WEIGHTED",
+   "gear": "MACHINE",
+   "art": "LEG_CURL",
+   "perSide": false,
+   "knee": false,
+   "lower": true,
+   "cue": {
+    "ar": "وركك لازق بالمسند، اثني بدون ما ترفع الورك.",
+    "en": "Hips pinned to the pad, curl without lifting them."
+   }
+  },
+  {
+   "id": "knee_to_wall",
+   "name": {
+    "ar": "تحريك الكاحل للحيط",
+    "en": "Knee-to-Wall Ankle Mobilization"
+   },
+   "muscles": {
+    "ar": "مرونة الكاحل",
+    "en": "Ankle mobility"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "KNEE_TO_WALL",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "قدمك قدام الحيط، دز ركبتك للحيط والكعب ثابت على الأرض.",
+    "en": "Foot facing the wall, drive the knee to the wall with the heel down."
+   }
+  },
+  {
+   "id": "wall_tib_raise",
+   "name": {
+    "ar": "رفع التيبياليس عالحيط",
+    "en": "Wall Tibialis Raise"
+   },
+   "muscles": {
+    "ar": "التيبياليس",
+    "en": "Tibialis",
+    "mx": "Tibialis"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "TIB_RAISE",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ظهرك عالحيط ورجليك لقدّام شوي، ارفع أصابع قدمك لفوق للآخر.",
+    "en": "Back to the wall, feet slightly forward, lift your toes as high as you can."
+   }
+  },
+  {
+   "id": "calf_stretch",
+   "name": {
+    "ar": "إطالة السمانة",
+    "en": "Calf Stretch"
+   },
+   "muscles": {
+    "ar": "الكاحل · السمانة",
+    "en": "Ankles · Calves"
+   },
+   "cls": "OTHER",
+   "measure": "TIME",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "CALF_STRETCH",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "مرة الركبة مستقيمة ومرة مثنية، والكعب على الأرض.",
+    "en": "Once with a straight knee, once bent, heel down."
+   }
+  },
+  {
+   "id": "couch_stretch",
+   "name": {
+    "ar": "إطالة الكنبة",
+    "en": "Couch Stretch"
+   },
+   "muscles": {
+    "ar": "قابض الورك · الفخد الأمامي",
+    "en": "Hip flexors · Quads",
+    "mx": "Hip flexors · Quads"
+   },
+   "cls": "OTHER",
+   "measure": "TIME",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "COUCH",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ركبتك عند الحيط والقدم عليه، شد الجلوتس وطلّع صدرك لفوق.",
+    "en": "Knee at the wall, foot up on it, squeeze the glute and lift your chest."
+   }
+  },
+  {
+   "id": "hamstring_stretch",
+   "name": {
+    "ar": "إطالة الفخد الخلفي",
+    "en": "Supine Hamstring Stretch"
+   },
+   "muscles": {
+    "ar": "الفخد الخلفي",
+    "en": "Hamstrings",
+    "mx": "Hamstrings"
+   },
+   "cls": "OTHER",
+   "measure": "TIME",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "HAM_STRETCH",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "نايم على ظهرك، الحبل أو المنشفة حول قدمك، ارفع الرجل مفرودة لحد الشد.",
+    "en": "On your back, strap around the foot, raise the straight leg to a stretch."
+   }
+  },
+  {
+   "id": "cossack_squat",
+   "name": {
+    "ar": "كوزاك سكوات",
+    "en": "Cossack Squat"
+   },
+   "muscles": {
+    "ar": "الأدكترز · المرونة · التوازن",
+    "en": "Adductors · Mobility · Balance",
+    "mx": "Adductors · المرونة · التوازن"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "COSSACK",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "رجليك مفتوحة، انزل على جهة والرجل الثانية مفرودة وأصابعها لفوق.",
+    "en": "Wide stance, sit to one side with the other leg straight, toes up."
+   }
+  },
+  {
+   "id": "deep_squat_hold",
+   "name": {
+    "ar": "ثبات سكوات عميق",
+    "en": "Assisted Deep Squat Hold"
+   },
+   "muscles": {
+    "ar": "عمق السكوات",
+    "en": "Squat depth"
+   },
+   "cls": "OTHER",
+   "measure": "TIME",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "DEEP_SQUAT",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "امسك عمود، انزل لتحت والكعب على الأرض، وخلّي صدرك لفوق.",
+    "en": "Hold a post, sink down with heels flat, chest up."
+   }
+  },
+  {
+   "id": "wall_slides",
+   "name": {
+    "ar": "انزلاق عالحيط + لفّة الصدر",
+    "en": "Wall Slides + Thread the Needle"
+   },
+   "muscles": {
+    "ar": "الكتف · الظهر العلوي",
+    "en": "Shoulders · Upper back"
+   },
+   "cls": "OTHER",
+   "measure": "REPS",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "WALL_SLIDE",
+   "perSide": false,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "ظهرك وإيديك عالحيط وطلّعهم لفوق بدون ما يتركوا الحيط، وبعدها لف صدرك لكل جهة.",
+    "en": "Back and arms on the wall, slide up without losing contact, then rotate through each side."
+   }
+  },
+  {
+   "id": "single_leg_balance",
+   "name": {
+    "ar": "التوازن على رجل وحدة",
+    "en": "Single-Leg Balance"
+   },
+   "muscles": {
+    "ar": "التوازن · الكاحل",
+    "en": "Balance · Ankle"
+   },
+   "cls": "OTHER",
+   "measure": "TIME",
+   "load": "NONE",
+   "gear": "BODY",
+   "art": "BALANCE",
+   "perSide": true,
+   "knee": false,
+   "lower": false,
+   "cue": {
+    "ar": "وقفة على رجل وحدة والركبة مرنة شوي. لما يصير سهل غمّض عيونك.",
+    "en": "Stand on one leg, knee soft. Close your eyes once it gets easy."
+   }
+  }
+ ],
+ "days": [
+  {
+   "day": "SUNDAY",
+   "blocks": [
+    {
+     "id": "main",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      60,
+      90
+     ],
+     "slots": [
+      {
+       "ex": "bench_press",
+       "sets": 4,
+       "min": 6,
+       "max": 8,
+       "rest": [
+        120,
+        180
+       ]
+      },
+      {
+       "ex": "incline_db_press",
+       "sets": 3,
+       "min": 8,
+       "max": 10,
+       "rest": [
+        120,
+        120
+       ]
+      },
+      {
+       "ex": "cable_fly",
+       "sets": 3,
+       "min": 12,
+       "max": 15,
+       "rest": [
+        60,
+        90
+       ],
+       "note": {
+        "ar": "آخر جولة للفشل",
+        "en": "Last set to failure"
+       },
+       "alts": [
+        "pec_deck"
+       ]
+      },
+      {
+       "ex": "seated_db_curl",
+       "sets": 3,
+       "min": 8,
+       "max": 12,
+       "rest": [
+        90,
+        90
+       ],
+       "note": {
+        "ar": "كوعك ثابت ونزول ثانيتين. إذا ⁦20 kg⁩ بتخليك تمرجح، نزّل لـ ⁦16-18 kg⁩.",
+        "en": "Elbows still, two seconds down. If 20 kg makes you swing, use 16–18 kg."
+       }
+      },
+      {
+       "ex": "hammer_curl",
+       "sets": 3,
+       "min": 10,
+       "max": 12,
+       "rest": [
+        60,
+        90
+       ],
+       "note": {
+        "ar": "للساعد (Brachioradialis)",
+        "en": "For the forearm (brachioradialis)"
+       },
+       "alts": [
+        "rope_hammer_curl"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": "MONDAY",
+   "notes": [
+    {
+     "ar": "السحب بدون Straps عشان القبضة والساعد.",
+     "en": "Pull without straps to build grip and forearms."
+    }
+   ],
+   "blocks": [
+    {
+     "id": "main",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      60,
+      90
+     ],
+     "slots": [
+      {
+       "ex": "lat_pulldown",
+       "sets": 4,
+       "min": 8,
+       "max": 10,
+       "rest": [
+        120,
+        120
+       ],
+       "note": {
+        "ar": "قبضة عريضة أو محايدة · عرض الظهر",
+        "en": "Wide or neutral grip · back width"
+       }
+      },
+      {
+       "ex": "chest_supported_row",
+       "sets": 3,
+       "min": 8,
+       "max": 10,
+       "rest": [
+        120,
+        120
+       ],
+       "note": {
+        "ar": "سماكة الظهر، والصدر مسنود بيحمي أسفل الظهر",
+        "en": "Back thickness; the chest pad protects your lower back"
+       },
+       "alts": [
+        "seated_cable_row"
+       ]
+      },
+      {
+       "ex": "back_extension",
+       "sets": 3,
+       "min": 12,
+       "max": 15,
+       "rest": [
+        90,
+        90
+       ],
+       "note": {
+        "ar": "بوزن الجسم بمرحلة التأسيس",
+        "en": "Body weight during the foundation phase"
+       },
+       "weeks": [
+        1,
+        4
+       ],
+       "load": "BODYWEIGHT"
+      },
+      {
+       "ex": "back_extension",
+       "sets": 3,
+       "min": 12,
+       "max": 15,
+       "rest": [
+        90,
+        90
+       ],
+       "note": {
+        "ar": "صحن على الصدر",
+        "en": "Hold a plate on your chest"
+       },
+       "weeks": [
+        5,
+        9
+       ]
+      },
+      {
+       "ex": "weighted_dips",
+       "sets": 3,
+       "min": 6,
+       "max": 10,
+       "rest": [
+        120,
+        120
+       ],
+       "note": {
+        "ar": "جسمك مستقيم للتراي. إذا أقل من 10 بوزن الجسم، بدون حزام لحد ⁦3 × 10⁩.",
+        "en": "Upright for the triceps. Under 10 body-weight reps? No belt until 3 × 10."
+       }
+      },
+      {
+       "ex": "overhead_cable_ext",
+       "sets": 3,
+       "min": 10,
+       "max": 12,
+       "rest": [
+        60,
+        90
+       ],
+       "note": {
+        "ar": "الرأس الطويل · بالحبل",
+        "en": "Long head · rope"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": "TUESDAY",
+   "blocks": [
+    {
+     "id": "mobility",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      15,
+      15
+     ],
+     "slots": [
+      {
+       "ex": "knee_to_wall",
+       "sets": 2,
+       "min": 10,
+       "max": 10,
+       "rest": [
+        15,
+        15
+       ]
+      },
+      {
+       "ex": "wall_tib_raise",
+       "sets": 3,
+       "min": 15,
+       "max": 25,
+       "rest": [
+        20,
+        20
+       ]
+      },
+      {
+       "ex": "calf_stretch",
+       "sets": 2,
+       "min": 45,
+       "max": 45,
+       "rest": [
+        10,
+        10
+       ],
+       "note": {
+        "ar": "جولة الركبة مستقيمة وجولة مثنية",
+        "en": "One round straight knee, one bent"
+       }
+      },
+      {
+       "ex": "couch_stretch",
+       "sets": 1,
+       "min": 45,
+       "max": 45,
+       "rest": [
+        10,
+        10
+       ]
+      },
+      {
+       "ex": "hamstring_stretch",
+       "sets": 2,
+       "min": 45,
+       "max": 45,
+       "rest": [
+        10,
+        10
+       ],
+       "note": {
+        "ar": "بحبل أو منشفة",
+        "en": "With a strap or towel"
+       }
+      },
+      {
+       "ex": "cossack_squat",
+       "sets": 2,
+       "min": 6,
+       "max": 6,
+       "rest": [
+        20,
+        20
+       ]
+      },
+      {
+       "ex": "deep_squat_hold",
+       "sets": 3,
+       "min": 30,
+       "max": 45,
+       "rest": [
+        20,
+        20
+       ],
+       "note": {
+        "ar": "مسك عمود",
+        "en": "Hold a post"
+       }
+      },
+      {
+       "ex": "wall_slides",
+       "sets": 2,
+       "min": 10,
+       "max": 10,
+       "rest": [
+        15,
+        15
+       ],
+       "note": {
+        "ar": "10 من كل واحد",
+        "en": "10 of each"
+       }
+      },
+      {
+       "ex": "single_leg_balance",
+       "sets": 3,
+       "min": 30,
+       "max": 30,
+       "rest": [
+        10,
+        10
+       ],
+       "note": {
+        "ar": "عيون مغمضة لما يصير سهل",
+        "en": "Eyes closed once it gets easy"
+       }
+      }
+     ],
+     "minutes": 20,
+     "note": {
+      "ar": "بدون أوزان. بتقدر تعمله بعد أي حصة ثانية.",
+      "en": "No weights. You can also do it after any other session."
+     }
+    }
+   ]
+  },
+  {
+   "day": "WEDNESDAY",
+   "notes": [
+    {
+     "ar": "Shrug و Farmer's Walk بدون Straps.",
+     "en": "Shrugs and farmer's walks without straps."
+    },
+    {
+     "ar": "الرفرفة: ⁦15 kg⁩ × 10 ثقيل على وزنك وغالباً فيه مرجحة والترابيس عم تاخد الشغل.",
+     "en": "Lateral raises: 15 kg × 10 is heavy for your size — usually swinging, with the traps taking over."
+    }
+   ],
+   "blocks": [
+    {
+     "id": "main",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      60,
+      90
+     ],
+     "slots": [
+      {
+       "ex": "seated_db_shoulder_press",
+       "sets": 4,
+       "min": 6,
+       "max": 10,
+       "rest": [
+        120,
+        120
+       ]
+      },
+      {
+       "ex": "db_lateral_raise",
+       "sets": 4,
+       "min": 12,
+       "max": 15,
+       "rest": [
+        60,
+        60
+       ],
+       "note": {
+        "ar": "⁦8-10 kg⁩ بفورم صارم، لمستوى الكتف، نزول 3 ثواني",
+        "en": "8–10 kg strict, to shoulder height, three seconds down"
+       }
+      },
+      {
+       "ex": "face_pull",
+       "sets": 3,
+       "min": 15,
+       "max": 15,
+       "rest": [
+        60,
+        60
+       ],
+       "note": {
+        "ar": "الكتف الخلفي، نص الترابيس، وصحة الكتف",
+        "en": "Rear delts, mid traps, shoulder health"
+       }
+      },
+      {
+       "ex": "db_shrug",
+       "sets": 4,
+       "min": 10,
+       "max": 12,
+       "rest": [
+        90,
+        90
+       ],
+       "note": {
+        "ar": "ثانية تثبيت فوق",
+        "en": "One-second hold on top"
+       },
+       "alts": [
+        "barbell_shrug"
+       ]
+      },
+      {
+       "ex": "farmers_walk",
+       "sets": 3,
+       "min": 40,
+       "max": 40,
+       "rest": [
+        90,
+        90
+       ],
+       "note": {
+        "ar": "دامبلز ثقيلة",
+        "en": "Heavy dumbbells"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": "THURSDAY",
+   "notes": [
+    {
+     "ar": "المجهود بالدائرة 7 من 10 بس، لأن بكرا يوم أرجل.",
+     "en": "Keep the circuit at 7/10 effort — tomorrow is leg day."
+    }
+   ],
+   "blocks": [
+    {
+     "id": "jumps",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      60,
+      90
+     ],
+     "slots": [
+      {
+       "ex": "snap_down",
+       "sets": 3,
+       "min": 5,
+       "max": 5,
+       "weeks": [
+        1,
+        4
+       ]
+      },
+      {
+       "ex": "box_jump",
+       "sets": 4,
+       "min": 4,
+       "max": 4,
+       "note": {
+        "ar": "Step Risers بارتفاع ⁦30-40 cm⁩: هبوط ناعم، ثبّت ثانيتين، انزل مشي",
+        "en": "Step risers at 30–40 cm: soft landing, hold two seconds, step down"
+       },
+       "weeks": [
+        1,
+        4
+       ]
+      },
+      {
+       "ex": "box_jump",
+       "sets": 4,
+       "min": 3,
+       "max": 3,
+       "note": {
+        "ar": "أعلى: ⁦45-60 cm⁩",
+        "en": "Higher: 45–60 cm"
+       },
+       "weeks": [
+        5,
+        9
+       ]
+      },
+      {
+       "ex": "broad_jump",
+       "sets": 4,
+       "min": 3,
+       "max": 3,
+       "note": {
+        "ar": "ثبّت الهبوط",
+        "en": "Stick the landing"
+       },
+       "weeks": [
+        5,
+        9
+       ]
+      }
+     ],
+     "title": {
+      "ar": "A — القفز",
+      "en": "A — Jumps"
+     },
+     "minutes": 10,
+     "note": {
+      "ar": "الجودة أهم من التعب",
+      "en": "Quality over fatigue"
+     }
+    },
+    {
+     "id": "sled",
+     "type": "SUPERSET",
+     "rounds": 4,
+     "rest": [
+      90,
+      90
+     ],
+     "slots": [
+      {
+       "ex": "backward_sled_drag",
+       "sets": 4,
+       "min": 20,
+       "max": 30,
+       "note": {
+        "ar": "مشي لورا على مقدمة القدم",
+        "en": "Walk backwards on the balls of your feet"
+       }
+      },
+      {
+       "ex": "sled_push",
+       "sets": 4,
+       "min": 20,
+       "max": 20,
+       "note": {
+        "ar": "ثقيل",
+        "en": "Heavy"
+       }
+      }
+     ],
+     "title": {
+      "ar": "B — Sled",
+      "en": "B — Sled",
+      "mx": "B — Sled"
+     },
+     "minutes": 15,
+     "note": {
+      "ar": "التمرينين ورا بعض، وبعدهم راحة",
+      "en": "Both back to back, then rest"
+     }
+    },
+    {
+     "id": "circuit",
+     "type": "CIRCUIT",
+     "rounds": 4,
+     "rest": [
+      90,
+      120
+     ],
+     "slots": [
+      {
+       "ex": "kb_deadlift",
+       "sets": 4,
+       "min": 10,
+       "max": 10,
+       "note": {
+        "ar": "بدل Tire Flip لحد ما تتقن حركة الورك",
+        "en": "Instead of tire flips until the hip hinge is solid"
+       },
+       "weeks": [
+        1,
+        2
+       ]
+      },
+      {
+       "ex": "tire_flip",
+       "sets": 4,
+       "min": 4,
+       "max": 4,
+       "weeks": [
+        3,
+        9
+       ]
+      },
+      {
+       "ex": "wall_ball",
+       "sets": 4,
+       "min": 12,
+       "max": 12,
+       "note": {
+        "ar": "على الهدف",
+        "en": "To the target"
+       }
+      },
+      {
+       "ex": "kb_swing",
+       "sets": 4,
+       "min": 15,
+       "max": 15
+      },
+      {
+       "ex": "pull_up",
+       "sets": 4,
+       "min": 6,
+       "max": 8,
+       "note": {
+        "ar": "أو Weighted بالحزام × 5",
+        "en": "Or weighted with the belt × 5"
+       }
+      },
+      {
+       "ex": "sandbag_carry",
+       "sets": 4,
+       "min": 40,
+       "max": 40
+      },
+      {
+       "ex": "monkey_bars",
+       "sets": 4,
+       "min": 1,
+       "max": 1,
+       "note": {
+        "ar": "طول واحد",
+        "en": "One length"
+       }
+      }
+     ],
+     "title": {
+      "ar": "C — دائرة التحمل",
+      "en": "C — Endurance circuit"
+     },
+     "minutes": 25,
+     "note": {
+      "ar": "ورا بعض بدون راحة، والراحة بين الجولات",
+      "en": "Back to back; rest between rounds"
+     }
+    },
+    {
+     "id": "core",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      45,
+      60
+     ],
+     "slots": [
+      {
+       "ex": "hanging_knee_raise",
+       "sets": 3,
+       "min": 8,
+       "max": 12,
+       "note": {
+        "ar": "بدون مرجحة. لما يصير سهل: Hanging Leg Raise",
+        "en": "No swinging. When it gets easy: hanging leg raise"
+       },
+       "alts": [
+        "hanging_leg_raise"
+       ]
+      },
+      {
+       "ex": "dead_bug",
+       "sets": 3,
+       "min": 8,
+       "max": 8,
+       "note": {
+        "ar": "لكل جهة · الكور العميق وحماية أسفل الظهر",
+        "en": "Per side · deep core, lower-back protection"
+       }
+      },
+      {
+       "ex": "copenhagen",
+       "sets": 3,
+       "min": 15,
+       "max": 30,
+       "note": {
+        "ar": "الركبة على الستيب (نسخة قصيرة)",
+        "en": "Knee on the step (short lever)"
+       },
+       "weeks": [
+        1,
+        4
+       ]
+      },
+      {
+       "ex": "copenhagen",
+       "sets": 3,
+       "min": 15,
+       "max": 30,
+       "note": {
+        "ar": "القدم على الستيب (النسخة الكاملة)",
+        "en": "Foot on the step (full lever)"
+       },
+       "weeks": [
+        5,
+        9
+       ]
+      },
+      {
+       "ex": "suitcase_carry",
+       "sets": 3,
+       "min": 30,
+       "max": 30,
+       "note": {
+        "ar": "كتلبيل بإيد وحدة، لكل جهة",
+        "en": "Kettlebell in one hand, per side"
+       }
+      }
+     ],
+     "title": {
+      "ar": "D — البطن والكور",
+      "en": "D — Abs & core",
+      "mx": "D — البطن والـ Core"
+     },
+     "minutes": 15
+    }
+   ]
+  },
+  {
+   "day": "FRIDAY",
+   "notes": [
+    {
+     "ar": "إذا رجليك لسا ثقيلة من الخميس: شيل جولة من أول تمرينين بدل ما تنزّل الوزن كثير.",
+     "en": "Legs still heavy from Thursday? Drop a set from the first two exercises instead of cutting the weight a lot."
+    },
+    {
+     "ar": "Bulgarian: إذا التوازن ما ساعدك بالأسبوع الأول، بوزن الجسم ومسك شي بإيد وحدة.",
+     "en": "Bulgarian: if balance is shaky in week one, use body weight and hold something with one hand."
+    }
+   ],
+   "blocks": [
+    {
+     "id": "main",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      60,
+      90
+     ],
+     "slots": [
+      {
+       "ex": "goblet_squat",
+       "sets": 4,
+       "min": 10,
+       "max": 12,
+       "rest": [
+        120,
+        120
+       ],
+       "note": {
+        "ar": "الكعب على صحن ⁦5-10 kg⁩، نزول 3 ثواني ووقفة ثانية تحت",
+        "en": "Heels on a 5–10 kg plate, three seconds down, one-second pause"
+       },
+       "weeks": [
+        1,
+        4
+       ]
+      },
+      {
+       "ex": "back_squat",
+       "sets": 4,
+       "min": 6,
+       "max": 8,
+       "rest": [
+        120,
+        180
+       ],
+       "note": {
+        "ar": "نفس الهدف بوزن أثقل",
+        "en": "Same goal, heavier load"
+       },
+       "weeks": [
+        5,
+        9
+       ]
+      },
+      {
+       "ex": "rdl",
+       "sets": 3,
+       "min": 8,
+       "max": 10,
+       "rest": [
+        120,
+        120
+       ],
+       "note": {
+        "ar": "ابدأ بدامبلز خفيفة",
+        "en": "Start with light dumbbells"
+       },
+       "alts": [
+        "db_rdl"
+       ]
+      },
+      {
+       "ex": "bulgarian_split_squat",
+       "sets": 3,
+       "min": 8,
+       "max": 10,
+       "rest": [
+        90,
+        90
+       ],
+       "note": {
+        "ar": "لكل رجل",
+        "en": "Per leg"
+       }
+      },
+      {
+       "ex": "hip_adduction",
+       "sets": 3,
+       "min": 12,
+       "max": 15,
+       "rest": [
+        60,
+        90
+       ]
+      },
+      {
+       "ex": "seated_leg_curl",
+       "sets": 3,
+       "min": 10,
+       "max": 12,
+       "rest": [
+        60,
+        90
+       ],
+       "note": {
+        "ar": "حماية الركبة",
+        "en": "Knee protection"
+       },
+       "alts": [
+        "lying_leg_curl"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "day": "SATURDAY",
+   "blocks": [
+    {
+     "id": "mobility",
+     "type": "STRAIGHT",
+     "rounds": 1,
+     "rest": [
+      15,
+      15
+     ],
+     "slots": [
+      {
+       "ex": "knee_to_wall",
+       "sets": 2,
+       "min": 10,
+       "max": 10,
+       "rest": [
+        15,
+        15
+       ]
+      },
+      {
+       "ex": "wall_tib_raise",
+       "sets": 3,
+       "min": 15,
+       "max": 25,
+       "rest": [
+        20,
+        20
+       ]
+      },
+      {
+       "ex": "calf_stretch",
+       "sets": 2,
+       "min": 45,
+       "max": 45,
+       "rest": [
+        10,
+        10
+       ],
+       "note": {
+        "ar": "جولة الركبة مستقيمة وجولة مثنية",
+        "en": "One round straight knee, one bent"
+       }
+      },
+      {
+       "ex": "couch_stretch",
+       "sets": 1,
+       "min": 45,
+       "max": 45,
+       "rest": [
+        10,
+        10
+       ]
+      },
+      {
+       "ex": "hamstring_stretch",
+       "sets": 2,
+       "min": 45,
+       "max": 45,
+       "rest": [
+        10,
+        10
+       ],
+       "note": {
+        "ar": "بحبل أو منشفة",
+        "en": "With a strap or towel"
+       }
+      },
+      {
+       "ex": "cossack_squat",
+       "sets": 2,
+       "min": 6,
+       "max": 6,
+       "rest": [
+        20,
+        20
+       ]
+      },
+      {
+       "ex": "deep_squat_hold",
+       "sets": 3,
+       "min": 30,
+       "max": 45,
+       "rest": [
+        20,
+        20
+       ],
+       "note": {
+        "ar": "مسك عمود",
+        "en": "Hold a post"
+       }
+      },
+      {
+       "ex": "wall_slides",
+       "sets": 2,
+       "min": 10,
+       "max": 10,
+       "rest": [
+        15,
+        15
+       ],
+       "note": {
+        "ar": "10 من كل واحد",
+        "en": "10 of each"
+       }
+      },
+      {
+       "ex": "single_leg_balance",
+       "sets": 3,
+       "min": 30,
+       "max": 30,
+       "rest": [
+        10,
+        10
+       ],
+       "note": {
+        "ar": "عيون مغمضة لما يصير سهل",
+        "en": "Eyes closed once it gets easy"
+       }
+      }
+     ],
+     "minutes": 20,
+     "note": {
+      "ar": "بدون أوزان. بتقدر تعمله بعد أي حصة ثانية.",
+      "en": "No weights. You can also do it after any other session."
+     }
+    }
+   ]
+  }
+ ]
+}
